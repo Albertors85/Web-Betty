@@ -1,0 +1,73 @@
+.main_fm{
+    background-image: url(/img/279E2FD9-3399-48E6-8FDD-47C2FCBF132D.jpg);
+    margin: 0 auto;
+    padding: 40px 20px 50px 20px;
+    max-width: 320px;
+}
+
+.fm_item{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+
+
+}
+
+.fm_item_check{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+
+    .fm_item_check_point{
+      margin-left: 0.5rem; 
+      cursor: pointer; 
+     
+    }
+}
+
+
+
+
+.fm_item_rd{
+    border: solid 2px red;
+    display: flex;
+    flex-flow: column wrap;
+    align-items:start;
+    cursor: pointer;
+
+}
+
+
+
+
+.btn{
+    display: flex;
+    justify-content:flex-start;
+
+    
+}
+
+
+
+.fm_btn{
+    color:blue;
+    background-color: blanchedalmond;
+    padding: 0.8rem;
+    margin: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.fm_text{
+    font-size: 1.2rem;
+    padding-bottom: 0.3rem;
+}
+
+.fm_input{
+    border-radius: 8px;
+    padding: 9px 4px;
+}

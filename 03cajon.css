@@ -1,0 +1,8 @@
+.cajon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cajon_fm, .cajon_prt{
+    border: solid 1px red;
+}
