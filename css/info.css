@@ -22,90 +22,41 @@
   color: #603b17;
 }
 
-.item_a {
-  width: 45px;
-
+.common {
   height: 9px;
   background-color: red;
   animation: random;
   animation-duration: 10s;
   animation-delay: 2s;
+}
+.item_a {
+  width: 45px;
 }
 
 .item_b {
   width: 45px;
-
-  height: 9px;
-  background-color: red;
-  animation: random;
-  animation-duration: 10s;
-  animation-delay: 2s;
 }
 .item_c {
   width: 60px;
-
-  height: 9px;
-  background-color: rgb(94, 119, 65);
-  animation: random;
-  animation-duration: 10s;
-  animation-delay: 2s;
 }
-.item_d {
-  width: 70px;
 
-  height: 9px;
-  background-color: red;
-  animation: random;
-  animation-duration: 10s;
-  animation-delay: 2s;
-}
 .item_e {
   width: 60px;
-
-  height: 9px;
-  background-color: red;
-  animation: random;
-  animation-duration: 10s;
-  animation-delay: 2s;
 }
 .item_f {
   width: 15px;
-
-  height: 9px;
-  background-color: red;
-  animation: random;
-  animation-duration: 10s;
-  animation-delay: 2s;
 }
 
 .item_g {
   width: 75px;
-
-  height: 9px;
-  background-color: red;
-  animation: random;
-  animation-duration: 10s;
-  animation-delay: 2s;
 }
 
 .item_h {
   width: 144px;
-
-  height: 9px;
-  background-color: red;
-  animation: random;
-  animation-duration: 10s;
-  animation-delay: 2s;
 }
 
 .item_i {
   width: 150px;
-
-  height: 9px;
-  background-color: red;
-  animation: random;
-  animation-duration: 10s;
-  animation-delay: 2s;
 }
 @keyframes random {
   0% {
