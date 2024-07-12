@@ -1,0 +1,12 @@
+footer {
+  background-color: #e9bc58;
+  justify-content: end;
+}
+
+.pie_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+}
