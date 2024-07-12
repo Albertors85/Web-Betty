@@ -36,7 +36,6 @@ He revisado con herramientas para el desarrollo que funciona en moviles, tablet.
 
 Tengo varias versiones en el git del proceso, incluido mi etapa "Estoy atascado".
 
-No entiendo que era el tag de git, tendré que hacerlo en la recuperación. Así como cualquier otra cosa, consejo...
 
 El diseño me ha costado demasiado, no soy muy artistico.
 
