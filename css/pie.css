@@ -1,5 +1,7 @@
+@import url("var_color.css");
+
 footer {
-  background-color: #e9bc58;
+  background-color: var(--color-head_foot);
   justify-content: end;
 }
 

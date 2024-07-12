@@ -23,7 +23,7 @@
 }
 
 .fm_item_rd {
-  border: solid 2px red;
+  border: solid 2px var(--color-red);
   display: flex;
   flex-flow: column wrap;
   align-items: start;
@@ -36,7 +36,7 @@
 }
 
 .fm_btn {
-  color: blue;
+  color: var(--color-blue);
   background-color: blanchedalmond;
   padding: 0.8rem;
   margin: 0.3rem;

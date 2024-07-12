@@ -1,3 +1,4 @@
+@import url("var_color.css");
 .header {
   padding-bottom: 1px;
   position: sticky;
@@ -6,9 +7,9 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  background-color: #e9bc58;
+  background-color:var(--color-head_foot);
   opacity: 0.9;
-  color: beige;
+  color:var(--color-beige);
 }
 .logo {
   display: flex;

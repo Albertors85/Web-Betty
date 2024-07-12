@@ -1,3 +1,4 @@
+@import url("var_color.css");
 .main_fm {
   margin: 0 auto;
   padding: 40px 20px 50px 20px;
@@ -43,7 +44,7 @@
 
 .fm_btn {
   color: grey;
-  background-color: rgb(239, 192, 125);
+  background-color: var(--color-back_form);
   padding: 0.8rem;
   margin: 0.3rem;
   display: flex;
@@ -57,7 +58,7 @@
 
 @media (hover: hover) {
   .fm_btn:hover {
-    background-color: rgb(217, 151, 59);
+    background-color: var(--color-form_hov);
     color: black;
   }
 }

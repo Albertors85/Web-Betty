@@ -1,144 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/08.formulario.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="/css/08.formulario.css" />
+  </head>
+  <body>
     <h1 class="">Contacto</h1>
-    
+
     <form action="/fm.html" method="post" class="main_fm">
+      <div class="fm_item">
+        <label class="fm_text" for="nombre">Nombre</label>
+        <input
+          class="fm_input"
+          type="text"
+          name="usuario1"
+          id="nombre"
+          placeholder="Nombre completo"
+          required
+        />
+      </div>
 
-            <div class="fm_item">
-            
-                <label class="fm_text" for="nombre">Nombre</label>
-                <input class="fm_input" type="text" name="usuario1" id="nombre" placeholder="Nombre completo" required>
-    
-            </div>
-            
+      <div class="fm_item">
+        <label class="fm_text" for="apellido">Apellidos</label>
+        <input
+          class="fm_input"
+          type="text"
+          name="usuario2"
+          id="apellido"
+          required
+        />
+      </div>
 
-            <div class="fm_item">
-    
-                <label class="fm_text" for="apellido">Apellidos</label>
-                <input class="fm_input" type="text" name="usuario2" id="apellido" required>
-    
-            </div>
-    
-    
-            <div class="fm_item">
-    
-                <label class="fm_text" for="telfon">Telefono</label>
-                <input class="fm_input" type="tel" name="telfon"  id="telfon" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required>
-                
+      <div class="fm_item">
+        <label class="fm_text" for="telfon">Telefono</label>
+        <input
+          class="fm_input"
+          type="tel"
+          name="telfon"
+          id="telfon"
+          pattern="[0-9]{3}[0-9]{3}[0-9]{3}"
+          required
+        />
+      </div>
 
-            </div>
-       
-
-            <fieldset class="fm_item_rd">
-                <legend class="fm_text">Me conoces de:</legend>
-                <div>
-
-                   
-                    <input class="fm_rd" type="radio" name="find" id="uni" value="uni">
-                    <label class="fm_item_lb"  for="uni">Universidad</label>
-                </div>
-
-                <div>
-
-                   
-                    <input class="fm_rd" type="radio" name="find" id="keep" value="keep" checked>
-                    <label class="fm_item_lb" for="keep">Keepcoding kick-off</label>
-                </div>
-
-
-                <div>
-
-                    
-                    <input class="fm_rd" type="radio" name="find" id="cole" value="cole">
-                    <label class="fm_item_lb" for="cole">Colegio</label>
-
-                </div>
-
-
-                <div>
-
-                    
-                    <input class="fm_rd" type="radio" name="find" id="git" value="git">
-                    <label class="fm_item_lb" for="git">En Github</label>
-
-                </div>
-               
-
-              
-
-                
-
-               
-                
-    
-            </fieldset>
-    
-        
-    
-            <label for="">tag gib</label>
-    
-
-
-
-
-
-            <div class="fm_item">
-                <label class="fm_text" for="info">Text area hablanos de ti</label>  
-
-                <textarea class="fm_input" name="info" id="info"  maxlength="180" required></textarea>
-                
-            </div>
-            
-
-            <div class="fm_item_check">
-
-             <label class="fm_text" for="diario">Deseas reibir notifica</label>
-             <input class="fm_item_check_point" type="checkbox" name="diario" id="diario" value="true ">
-
-            </div>
-
-
-            
-
-        
-
-
- 
-
-
-        <div class="btn">
-
-           <button class="fm_btn" type="submit">Enviar</button>
-            
-
-        
-            <button class="fm_btn" type="reset">clear</button>
-            
-
+      <fieldset class="fm_item_rd">
+        <legend class="fm_text">Me conoces de:</legend>
+        <div>
+          <input class="fm_rd" type="radio" name="find" id="uni" value="uni" />
+          <label class="fm_item_lb" for="uni">Universidad</label>
         </div>
-        
-       
 
+        <div>
+          <input
+            class="fm_rd"
+            type="radio"
+            name="find"
+            id="keep"
+            value="keep"
+            checked
+          />
+          <label class="fm_item_lb" for="keep">Keepcoding kick-off</label>
+        </div>
+
+        <div>
+          <input
+            class="fm_rd"
+            type="radio"
+            name="find"
+            id="cole"
+            value="cole"
+          />
+          <label class="fm_item_lb" for="cole">Colegio</label>
+        </div>
+
+        <div>
+          <input class="fm_rd" type="radio" name="find" id="git" value="git" />
+          <label class="fm_item_lb" for="git">En Github</label>
+        </div>
+      </fieldset>
+
+      <label for="">tag gib</label>
+
+      <div class="fm_item">
+        <label class="fm_text" for="info">Text area hablanos de ti</label>
+
+        <textarea
+          class="fm_input"
+          name="info"
+          id="info"
+          maxlength="180"
+          required
+        ></textarea>
+      </div>
+
+      <div class="fm_item_check">
+        <label class="fm_text" for="diario">Deseas reibir notifica</label>
+        <input
+          class="fm_item_check_point"
+          type="checkbox"
+          name="diario"
+          id="diario"
+          value="true "
+        />
+      </div>
+
+      <div class="btn">
+        <button class="fm_btn" type="submit">Enviar</button>
+
+        <button class="fm_btn" type="reset">clear</button>
+      </div>
     </form>
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
+  </body>
 </html>

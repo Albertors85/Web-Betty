@@ -1,9 +1,10 @@
+@import url("var_color.css");
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #f3e5c8;
+  background-color: var(--color-body);
   padding: 0;
   margin: 0;
   display: grid;
@@ -32,7 +33,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: beige;
+  color: var(--color-beige);
   text-decoration: none;
   cursor: pointer;
 }
@@ -44,7 +45,7 @@ ul {
 figure {
   margin: 0;
   padding: 0;
-  border: solid 1px red;
+  border: solid 1px var(--color-red);
 }
 
 .prt_proyectos {
@@ -73,7 +74,7 @@ figure {
 }
 
 .prt_txt {
-  color: blue;
+  color: var(--color-blue);
 }
 .video {
   display: flex;

@@ -1,3 +1,4 @@
+@import url("var_color.css");
 .informacion {
   background-color: azure;
 }
@@ -13,18 +14,18 @@
 
 .inf h2,
 .hbl {
-  color: #a8723c;
+  color: var(--color-hSkill);
   padding-left: 10px;
 }
 
 .inf p {
   padding-left: 7px;
-  color: #603b17;
+  color: -var(--color-ptext);
 }
 
 .common {
   height: 9px;
-  background-color: red;
+  background-color: var(--color-red);
   animation: random;
   animation-duration: 10s;
   animation-delay: 2s;

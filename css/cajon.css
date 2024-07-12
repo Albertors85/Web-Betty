@@ -1,3 +1,4 @@
+@import url("var_color.css");
 .cajon {
   display: flex;
   justify-content: space-around;
@@ -5,5 +6,5 @@
 }
 .cajon_fm,
 .cajon_prt {
-  border: solid 1px red;
+  border: solid 1px var(--color-red);
 }

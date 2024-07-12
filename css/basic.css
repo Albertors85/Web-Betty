@@ -4,6 +4,7 @@ fondo
 esquema
 mediaqueries
 */
+@import url("var_color.css");
 *,
 *::before,
 *::after {
@@ -15,7 +16,7 @@ html {
 }
 
 body {
-  background-color: #f3e5c8;
+  background-color: var(--color-body);
   margin: 0;
   padding: 0;
   display: grid;
@@ -41,7 +42,7 @@ footer {
 }
 
 a {
-  color: beige;
+  color: var(--color-beige);
   text-decoration: none;
 }
 
@@ -53,6 +54,6 @@ ul {
 
 @media (hover: hover) {
   a:hover {
-    color: #81611d;
+    color: var(--color-hov);
   }
 }
